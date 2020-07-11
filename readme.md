@@ -41,11 +41,13 @@ Green boxes are labelled by the VJ detector. Red boxes are labelled by hand, sho
 4. Perform Hough Transform on the extracted image.
 
 Circle Hough Transform:
+
 ![alt text][circle]
 
 [circle]: readme_pic/circle.png "Target image after edge extraction"
 
 Line Hough Transform:
+
 ![alt text][line]
 
 [line]: readme_pic/line.png "Target image after edge extraction"
@@ -56,4 +58,4 @@ Line Hough Transform:
 
 [combined]: readme_pic/combined.png "Target image after edge extraction"
 
-The Dartboard on the right was labelled correctly after the combination of VJ and Hough Transform. However, in this example, the dartboard on the left was not able to be detected, because it is an oval instead of a circle. 
+The Dartboard on the right was labelled correctly after the combination of VJ and Hough Transform. However, in this example, the dartboard on the left was not able to be detected, because it is an oval instead of a circle.
